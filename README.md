@@ -72,6 +72,63 @@ Overrides
   `~/.config/nvim/rc.d` allowing override of default settings (e.g: color
   schemes, plugin configuration, etc.).
 
+
+Plugins
+------------
+
+* [Solarized](https://github.com/altercation/vim-colors-solarized) - color
+  scheme
+* [base16-vim](https://github.com/chriskempson/base16-vim) - color scheme
+* [vim-molokai](https://github.com/tomasr/molokai) - color scheme
+* [Deoplete](https://github.com/Shougo/deoplete.nvim) - Dark powered
+  asynchronous completion framework for Neovim 
+* [Fugitive](https://github.com/tpope/vim-fugitive) - a Git wrapper so awesome,
+  it should be illegal
+* [Lawrencium](https://github.com/ludovicchabant/vim-lawrencium) - Mercurial
+  wrapper for Vim, inspired by Tim Pope's Fugitive
+* [ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim) - Fuzzy file, buffer, mru,
+  tag, etc finder
+* [ale](https://github.com/w0rp/ale) - Asynchronous Lint Engine
+* [UltiSnips](https://github.com/sirver/ultisnips) - The ultimate snippet
+  solution for Vim.
+* [vim-snippets](https://github.com/honza/vim-snippets) - vim-snipmate default
+  snippets
+* [python-mode](https://github.com/klen/python-mode) - Vim python-mode. PyLint,
+  Rope, Pydoc, breakpoints from box
+* [vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim
+* [rust.vim](https://github.com/rust-lang/rust.vim) - provides Rust file
+  detection, syntax highlighting, formatting, Syntastic integration, and more.
+* [DrawIt](https://github.com/vim-scripts/DrawIt) - ASCII drawing plugin:
+  lines, ellipses, arrows, fills, and more!
+* [vim-surround](https://github.com/tpope/vim-surround) -
+  quoting/parenthesizing made simple
+* [Shebang](https://github.com/vim-scripts/Shebang) - Make executable by
+  setting the correct shebang and executable bit
+* [Tagbar](http://majutsushi.github.com/tagbar/) - Displays tags in a window,
+  ordered by class etc.
+* [NERD tree](https://github.com/scrooloose/nerdtree) - A tree explorer
+* [auto-pairs](https://github.com/jiangmiao/auto-pairs) - Insert or delete
+  brackets, parens, quotes in pair
+* [po.vim](http://vim.sourceforge.net/scripts/script.php?script_id=695) -
+  Easier editing of GNU gettext PO files
+* [MatchTagAlways](https://github.com/valloric/MatchTagAlways) - A Vim plugin
+  that always highlights the enclosing html/xml tags
+* [vim-airline](https://github.com/bling/vim-airline) - Light weight status
+  line utility
+* [tabular](https://github.com/godlygeek/tabular) - text filtering and
+  alignment
+* [tcomment_vim](https://github.com/tomtom/tcomment_vim) - An extensible &
+  universal comment vim-plugin that also handles embedded filetypes
+* [vim-unimpaired](https://github.com/tpope/vim-unimpaired) - pairs of handy
+  bracket mappings
+* [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors) -
+  True Sublime Text style multiple selections for Vim
+* [splitjoin.vim](https://github.com/AndrewRadev/splitjoin.vim) - A Vim plugin
+  that simplifies the transition between multiline and single-line code
+* [vim-repeat](https://github.com/tpope/vim-repeat) - enable repeating supported plugin maps with "."
+* [tsuquyomi](https://github.com/Quramy/tsuquyomi) - A Vim plugin for TypeScript
+
+
 Shortcuts and re-Mappings
 ----------------------------
 
