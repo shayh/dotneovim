@@ -10,3 +10,5 @@ let g:solarized_contrast="high"
 let g:solarized_visibility="high"
 
 let base16colorspace=256
+
+set termguicolors

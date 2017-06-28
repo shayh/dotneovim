@@ -6,7 +6,7 @@ call plug#begin()
 
 " Color schemes and appearance
 
-Plug 'altercation/vim-colors-solarized'
+Plug 'frankier/neovim-colors-solarized-truecolor-only'
 Plug 'chriskempson/base16-vim'
 Plug 'tomasr/molokai'
 
