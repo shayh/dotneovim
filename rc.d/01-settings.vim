@@ -82,3 +82,10 @@ set nomodeline
 " Highlight end of line whitespace.
 highlight WhitespaceEOL ctermbg=red guibg=red
 match WhitespaceEOL /\s\+$/
+
+
+" ==================================================
+" Python program where client is installed
+" ==================================================
+
+let g:python3_host_prog = '/usr/bin/python'

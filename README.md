@@ -153,3 +153,15 @@ Shortcuts and re-Mappings
 | ``g*``                 | :grep! -w current_word                                            |
 | ``ga``                 | :grepadd! (add results to the current search)                     |
 | ``gr``                 | :CtrlPBufTag (fuzzy tag search in current file)                   |
+
+
+Virtualenv settings
+-------------------
+
+If you're running from virtualenv activated, make sure to point nvim and ale to
+correct locations. By default, settings are:
+
+    let g:python3_host_prog = '/usr/bin/python'
+    let g:ale_python_flake8_executable = '/usr/bin/flake8'
+
+If needed, override those settings to the locations on your machine.
