@@ -59,6 +59,7 @@ Plug 'zchee/deoplete-jedi'
 " Programming languages
 
 Plug 'klen/python-mode'
+Plug 'davidhalter/jedi-vim'
 Plug 'fatih/vim-go'
 Plug 'rust-lang/rust.vim'
 Plug 'Quramy/tsuquyomi'
