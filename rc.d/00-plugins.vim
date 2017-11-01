@@ -20,7 +20,9 @@ Plug 'edkolev/tmuxline.vim'
 " General utilities
 
 Plug 'Shougo/vimproc', {'do' : 'make'}
-Plug 'ctrlpvim/ctrlp.vim'
+" Plug 'ctrlpvim/ctrlp.vim'
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'scrooloose/nerdtree'
@@ -74,6 +76,6 @@ Plug 'groenewege/vim-less'
 Plug 'ap/vim-css-color'
 "Plug 'vim-scripts/po.vim--Jelenak'
 Plug 'pangloss/vim-javascript'
-
+Plug 'artur-shaik/vim-javacomplete2'
 
 call plug#end()
