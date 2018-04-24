@@ -38,6 +38,7 @@ Plug 'christoomey/vim-tmux-navigator'
 "
 Plug 'tpope/vim-fugitive'
 "Plug 'ludovicchabant/vim-lawrencium'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'airblade/vim-gitgutter'
 
 
