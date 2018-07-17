@@ -40,6 +40,7 @@ Plug 'tpope/vim-fugitive'
 "Plug 'ludovicchabant/vim-lawrencium'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'airblade/vim-gitgutter'
+Plug 'junegunn/gv.vim'
 
 
 " Programming support
