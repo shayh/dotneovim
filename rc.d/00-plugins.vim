@@ -61,7 +61,7 @@ Plug 'Valloric/MatchTagAlways'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'zchee/deoplete-jedi'
 "Plug 'zchee/deoplete-go', { 'do': 'make' }
-Plug 'Valloric/YouCompleteMe'
+"Plug 'Valloric/YouCompleteMe'
 
 
 " Programming languages
@@ -71,13 +71,16 @@ Plug 'davidhalter/jedi-vim'
 "Plug 'fatih/vim-go'
 "Plug 'rust-lang/rust.vim'
 Plug 'palantir/tslint'
-Plug 'Quramy/tsuquyomi'
+"Plug 'Quramy/tsuquyomi'
+"Plug 'HerringtonDarkholme/yats.vim'
+Plug 'mhartington/nvim-typescript', { 'do': './install.sh' }
 Plug 'hail2u/vim-css3-syntax'
 Plug 'cakebaker/scss-syntax.vim'
 Plug 'groenewege/vim-less'
 Plug 'ap/vim-css-color'
 "Plug 'vim-scripts/po.vim--Jelenak'
 Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 Plug 'artur-shaik/vim-javacomplete2'
 
 call plug#end()

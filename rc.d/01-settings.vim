@@ -88,4 +88,9 @@ match WhitespaceEOL /\s\+$/
 " Python program where client is installed
 " ==================================================
 
-"let g:python3_host_prog = '/usr/bin/python'
+let g:python3_host_prog = '/usr/local/bin/python3'
+let g:python_host_prog = '/usr/local/bin/python'
+
+let $NVIM_NODE_LOG_FILE='nvim-node.log'
+let $NVIM_NODE_LOG_LEVEL='warn'
+
