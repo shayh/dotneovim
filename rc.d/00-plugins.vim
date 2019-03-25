@@ -60,8 +60,9 @@ Plug 'Valloric/MatchTagAlways'
 
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'zchee/deoplete-jedi'
+Plug 'ternjs/tern_for_vim', { 'do': 'npm install' }
+Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
 "Plug 'zchee/deoplete-go', { 'do': 'make' }
-"Plug 'Valloric/YouCompleteMe'
 
 
 " Programming languages
