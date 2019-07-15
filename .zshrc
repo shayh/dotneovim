@@ -2,13 +2,13 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="~/.oh-my-zsh"
+  export ZSH="/home/shy/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-# ZSH_THEME="robbyrussell"
+#ZSH_THEME="robbyrussell"
 ZSH_THEME="agnoster"
 
 # Set list of themes to pick from when loading at random
@@ -66,15 +66,13 @@ ZSH_THEME="agnoster"
 plugins=(git
          python
          npm
-         brew
          fzf
          jira
-         osx
          tig
          tmux
          tmuxinator
-         zsh_reload
-         )
+         zsh-autosuggestions
+         zsh_reload)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -83,7 +81,8 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LC_ALL=en_IL.UTF-8
+export LANGUAGE=en_IL.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -97,7 +96,7 @@ export EDITOR='nvim'
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
+export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -107,3 +106,10 @@ export EDITOR='nvim'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+emulate sh -c 'source /etc/profile.d/xdg_dirs_desktop_session.sh'
+export XDG_DATA_DIRS="$XDG_DATA_DIRS:/var/lib/snapd/desktop/"
+
+export PATH=$HOME/.local/bin:/snap/bin:$PATH
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+. virtualenvwrapper.sh
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
